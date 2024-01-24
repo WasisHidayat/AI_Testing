@@ -28,7 +28,9 @@ WebUI.setText(findTestObject('Object Repository/CURA Health login/Page_CURA Heal
 WebUI.setEncryptedText(findTestObject('Object Repository/CURA Health login/Page_CURA Healthcare Service/input_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.takeScreenshotAsCheckpoint('cek')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('Halaman Login')
 
 WebUI.click(findTestObject('Object Repository/CURA Health login/Page_CURA Healthcare Service/button_Login'))
 
