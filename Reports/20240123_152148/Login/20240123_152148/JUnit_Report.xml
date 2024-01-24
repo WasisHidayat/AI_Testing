@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="10.949" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="10.949" skipped="0" timestamp="23-01-2024T15:21:52" hostname="1722 - LAPTOP-OM51GH8M" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\AI Testing\\AI_Testing\\Reports\\20240123_152148\\Login\\20240123_152148"/>
+         <property name="logFiles" value="D:\\AI Testing\\AI_Testing\\Reports\\20240123_152148\\Login\\20240123_152148\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-cek.png"/>
+         <property name="hostName" value="1722 - LAPTOP-OM51GH8M"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.55.118"/>
+         <property name="sessionId" value="e26a259638ed3a63c79fae457d6f6795"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA Health/Login" time="10.75" classname="Test Cases/CURA Health/Login" status="PASSED">
+         <system-out><![CDATA[23-01-2024T15:21:52 - [TEST_CASE][PASSED] - Test Cases/CURA Health/Login: Test Cases/CURA Health/Login
+
+23-01-2024T15:21:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-01-2024T15:21:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-01-2024T15:21:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-01-2024T15:21:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-01-2024T15:21:54 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+23-01-2024T15:21:59 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+23-01-2024T15:21:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Health login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA Health login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+23-01-2024T15:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Health login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+23-01-2024T15:22:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA Health login/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURA Health login/Page_CURA Healthcare Service/input_username'
+
+23-01-2024T15:22:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA Health login/Page_CURA Healthcare Service/input_username'
+
+23-01-2024T15:22:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CURA Health login/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CURA Health login/Page_CURA Healthcare Service/input_password'
+
+23-01-2024T15:22:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CURA Health login/Page_CURA Healthcare Service/input_password'
+
+23-01-2024T15:22:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("cek"): Taking screenshot successfully
+
+23-01-2024T15:22:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-01-2024T15:22:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-cek.png]]
+
+23-01-2024T15:22:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Health login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA Health login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+23-01-2024T15:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Health login/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-01-2024T15:21:52 - [TEST_SUITE][PASSED] - Login: Test Cases/CURA Health/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
