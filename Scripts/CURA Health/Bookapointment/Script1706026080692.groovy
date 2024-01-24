@@ -29,3 +29,7 @@ WebUI.setEncryptedText(findTestObject('Test Object/Page_CURA Healthcare Service/
 
 WebUI.click(findTestObject('Test Object/Page_CURA Healthcare Service/btnLogin'))
 
+WebUI.takeScreenshotAsCheckpoint('cek')
+
+WebUI.closeBrowser()
+
