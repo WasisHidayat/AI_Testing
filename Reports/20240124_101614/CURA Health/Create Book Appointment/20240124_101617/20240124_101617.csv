@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Book Appointment,Android - Chrome 120.0.0.0,,,24-01-2024 10:18:24,24-01-2024 10:30:41,12m - 17.462s,FAILED
+,,,,,,,
+Test Cases/CURA Health/Create Book Appointment,Android - Chrome 120.0.0.0,,,24-01-2024 10:27:46,24-01-2024 10:30:41,2m - 55.180s,FAILED
+"openBrowser("""")",Android - Chrome 120.0.0.0,,,24-01-2024 10:27:46,24-01-2024 10:28:36,50.127s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Android - Chrome 120.0.0.0,,,24-01-2024 10:28:36,24-01-2024 10:28:39,2.594s,PASSED
+"click(findTestObject(""Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/a_Make Appointment""))",Android - Chrome 120.0.0.0,,,24-01-2024 10:28:39,24-01-2024 10:28:45,6.365s,PASSED
+"setText(findTestObject(""Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Android - Chrome 120.0.0.0,,,24-01-2024 10:28:45,24-01-2024 10:29:00,14.916s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Android - Chrome 120.0.0.0,,,24-01-2024 10:29:00,24-01-2024 10:29:07,6.785s,PASSED
+"click(findTestObject(""Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/button_Login""))",Android - Chrome 120.0.0.0,,,24-01-2024 10:29:07,24-01-2024 10:29:11,4.774s,PASSED
+"click(findTestObject(""Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/input_hospital_readmission""))",Android - Chrome 120.0.0.0,,,24-01-2024 10:29:11,24-01-2024 10:29:48,36.623s,PASSED
+"click(findTestObject(""Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/label_Medicaid""))",Android - Chrome 120.0.0.0,,,24-01-2024 10:29:48,24-01-2024 10:30:41,52.965s,FAILED

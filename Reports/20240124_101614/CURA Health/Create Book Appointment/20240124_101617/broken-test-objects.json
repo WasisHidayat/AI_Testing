@@ -8,7 +8,7 @@
       "proposedLocator": "//input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/input_hospital_readmission_position.png"
+      "pathToScreenshot": "Reports/20240124_101614/CURA Health/Create Book Appointment/20240124_101617/Object Repository/Create Book Appointment CURA/Page_CURA Healthcare Service/input_hospital_readmission_position.png"
     }
   ]
 }
